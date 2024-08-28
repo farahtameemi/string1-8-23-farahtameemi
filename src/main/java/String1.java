@@ -7,22 +7,71 @@ public class String1
 
     public static void main(String[] args){
         String1 s = new String1();
-        System.out.println(s.helloName("Bob"));
-        System.out.println(s.makeAbba("Hi", "Bye"));
-        System.out.println(s.makeTags("i", "Yay"));
-        System.out.println(s.makeOutWord("<<>>", "Yay"));
-        System.out.println(s.extraEnd("Hello"));
-        System.out.println(s.firstTwo("Hello"));
-        System.out.println(s.withoutEnd("Hello"));
-        System.out.println(s.comboString("hi", "Hello"));
-        System.out.println(s.middleThree("Candy"));
-        System.out.println(s.extraFront("Hello"));
-        System.out.println(s.left2("Hello"));
-        System.out.println(s.hasBad("badxx"));
-        System.out.println(s.conCat("abc", "cat"));
-        System.out.println(s.minCat("Hello", "Hi"));
-        System.out.println(s.withoutX("xHix"));
-        System.out.println(s.deFront("Hello"));
+        
+System.out.println(s.helloName("Bob"));
+System.out.println(s.helloName("Alice"));
+System.out.println(s.helloName("X"));
+
+System.out.println(s.makeAbba("Hi", "Bye"));
+System.out.println(s.makeAbba("Yo", "Alice"));
+System.out.println(s.makeAbba("What", "Up"));
+
+System.out.println(s.makeTags("i", "Yay"));
+System.out.println(s.makeTags("i", "Hello"));
+System.out.println(s.makeTags("cite", "Yay"));
+
+System.out.println(s.makeOutWord("<<>>", "Yay"));
+System.out.println(s.makeOutWord("<<>>", "WooHoo"));
+System.out.println(s.makeOutWord("[[]]", "word"));
+
+System.out.println(s.extraEnd("Hello"));
+System.out.println(s.extraEnd("ab"));
+System.out.println(s.extraEnd("Hi"));
+
+System.out.println(s.firstTwo("Hello"));
+System.out.println(s.firstTwo("abcdefg"));
+System.out.println(s.firstTwo("ab"));
+
+System.out.println(s.withoutEnd("Hello"));
+System.out.println(s.withoutEnd("java"));
+System.out.println(s.withoutEnd("coding"));
+
+System.out.println(s.comboString("hi", "Hello"));
+System.out.println(s.comboString("Hello", "hi"));
+System.out.println(s.comboString("aaa", "b"));
+
+System.out.println(s.middleThree("Candy"));
+System.out.println(s.middleThree("and"));
+System.out.println(s.middleThree("solving"));
+
+System.out.println(s.extraFront("Hello"));
+System.out.println(s.extraFront("ab"));
+System.out.println(s.extraFront("H"));
+
+System.out.println(s.left2("Hello"));
+System.out.println(s.left2("java"));
+System.out.println(s.left2("Hi"));
+
+System.out.println(s.hasBad("badxx"));
+System.out.println(s.hasBad("xbadxx"));
+System.out.println(s.hasBad("xxbadxx"));
+
+System.out.println(s.conCat("abc", "cat"));
+System.out.println(s.conCat("dog", "cat"));
+System.out.println(s.conCat("abc", ""));
+
+System.out.println(s.minCat("Hello", "Hi"));
+System.out.println(s.minCat("Hello", "java"));
+System.out.println(s.minCat("java", "Hello"));
+
+System.out.println(s.withoutX("xHix"));
+System.out.println(s.withoutX("xHi"));
+System.out.println(s.withoutX("Hxix"));
+
+System.out.println(s.deFront("Hello"));
+System.out.println(s.deFront("java"));
+System.out.println(s.deFront("away"));
+
     }
 
     public String1()
