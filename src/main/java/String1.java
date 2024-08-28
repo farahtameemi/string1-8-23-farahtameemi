@@ -88,7 +88,7 @@ System.out.println(s.deFront("away"));
      *  helloName("X") → "Hello X!"
      */
     public String helloName(String name) {
-        return unimplemented;
+        return "Hello " + name + "!";
     }
 
     /*
